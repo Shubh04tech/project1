@@ -1,0 +1,100 @@
+/* Style the header with an upper border */
+header {
+    
+   background-image: linear-gradient(#51e2f5,#9df9ef,white,#ffa8B6, #a28089);/* Background color for the header */
+    text-align: left;
+    padding: 20px;
+}
+header h3{
+    position: relative;
+    padding-left: 20px;
+    right: 150px;
+    bottom: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+}
+#name{
+      margin: 0;
+    font-size: 40px;
+}
+#contact1{
+    right: 80px;
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.srout{
+    position: relative;
+    
+    border-radius: 50%;
+    margin: 30px;
+}
+.hero{
+text-align: center;
+}
+.content
+{
+    background-color: rgba(181, 221, 248, 0.7); /* Adjust the alpha value for transparency */
+    border: 1px solid #ffffff;
+    padding: 20px;
+    margin: 30px;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+}
+.about-me {
+
+
+    border: 1px solid #ddd;
+
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+
+}
+.content:hover {
+    transform: translateY(0);
+    box-shadow: inset 0 0 60px #8ef6ff,
+                inset 20px 0 80px rgb(179, 106, 239),
+                inset -20px 0 80px #fefffe,
+                inset 20px 0 300px #bcf3ff,
+                inset -20px 0 300px #74e8db,
+                0 0 50px #ffeeee,
+                -10px 0 80px rgb(128, 193, 237),
+                10px 0 60px #dab7f1;
+  }
